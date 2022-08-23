@@ -2,6 +2,6 @@
 for a in range(0, 10):
     for b in range(0, 10):
         if a < b and a != 8:
-            print("{}{},".format(a,b), end=' ')
+            print("{}{},".format(a, b), end=' ')
         if a < b and a == 8:
-            print("{}{}".format(a,b))
+            print("{}{}".format(a, b))
