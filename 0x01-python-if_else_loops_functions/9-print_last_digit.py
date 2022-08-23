@@ -1,11 +1,8 @@
 #!/usr/bin/python3
-def print_last_number(number):
+def print_last_digit(number):
     if number >= 0:
         rem = number % 10
     else:
         rem = 10 - (number % 10)
     print("{:d}".format(rem), end='')
     return rem
-
-
-
